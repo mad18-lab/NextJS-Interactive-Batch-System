@@ -15,11 +15,11 @@ const Users = () => {
         <div className="flex flex-col gap-2 w-[50%] mt-12">
             <div className="flex flex-col gap-3 max-w-[505px] pb-4 items-start">
                 <p className="flex gap-2 font-ClashDisplay-Bold text-xl sm:text-3xl">The Best Financial Accounting App Ever!</p>
-                <p className="sm:text-lg text-base font-ClashDisplay-Medium text-[#797575]">"Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.
+                <p className="sm:text-lg text-base font-ClashDisplay-Medium text-[#797575]">&quot;Arcu at dictum sapien, mollis. Vulputate sit id accumsan, ultricies.
                     In ultrices malesuada elit mauris etiam odio. Duis tristique lacus, et
                     blandit viverra nisl velit. Sed mattis rhoncus, diam suspendisse sit
                     nunc, gravida eu. Lectus eget eget ac dolor neque lorem sapien,
-                suspendisse aliquam."</p>
+                suspendisse aliquam.&quot;</p>
                 <Image src={users} alt='/' className="my-2"/>
                 <p className="font-ClashDisplay-Bold">Nick Jonas</p>
             </div>
