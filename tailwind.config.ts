@@ -8,11 +8,20 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      boxShadow: {
+        "custom-blur": "0 0 rgba(0, 0, 0, 0.5)",
       },
+      backgroundImage: {
+        "custom-gradient": "linear-gradient(to right, transparent, grey, transparent)",
+      },
+      fontFamily: {
+        "ClashDisplay-Regular": "ClashDisplay-Regular",
+        "ClashDisplay-Bold": "ClashDisplay-Bold",
+        "ClashDisplay-Medium": "ClashDisplay-Medium",
+        "ClashDisplay-Semibold": "ClashDisplay-Semibold",
+        "ClashDisplay-Light": "ClashDisplay-Light",
+        "ClashDisplay-Extralight": "ClashDisplay-Extralight",
+      }
     },
   },
   plugins: [],
